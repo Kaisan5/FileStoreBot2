@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
     
     [
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/DATTEBAYO56')
+                    InlineKeyboardButton('ᴇᴛᴇʀɴᴀʟs', url='https://t.me/Anime_Eternals')
         
     ]
             ]
