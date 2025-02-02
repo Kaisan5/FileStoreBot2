@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "LordAizenRavenBot")
+DB_NAME = os.environ.get("DATABASE_NAME", "kurumiX_Robot")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002038915478"))
@@ -39,7 +39,7 @@ FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002027984564"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {mention}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n\nᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ : [ @Anime_Raven ]</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {mention}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n\nᴅᴇᴠᴇʟᴏᴘᴇᴅ ғᴏʀ : [ @Anime_Eternals ]</b>")
 try:
     ADMINS=[1439890119]
     for x in (os.environ.get("ADMINS", "7827448605 5696112220").split()):
@@ -60,10 +60,10 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b>ʙᴀᴋᴋᴀ ! ᴅᴏɴᴛ ᴍᴇssᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @DATTEBAYO56</b>"
+USER_REPLY_TEXT = "<b>ʙᴀᴋᴋᴀ ! ᴅᴏɴᴛ ᴍᴇssᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @KaiXSen</b>"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1439890119)
+ADMINS.append(7784698094)
 
 LOG_FILE_NAME = "animeravenbots.txt"
 
