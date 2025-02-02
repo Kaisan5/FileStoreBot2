@@ -49,10 +49,6 @@
       "description": "id of your group, if you want enable force sub feature else put 0",
       "value": "-1002059817947"
     },
-    "FORCESUB_CHANNEL4":{
-      "description": "id of your group, if you want enable force sub feature else put 0",
-      "value": "-1002059817947"
-    },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
       "value": "",
