@@ -35,7 +35,6 @@ DB_NAME = os.environ.get("DATABASE_NAME", "kurumiX_Robot")
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002038915478"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002034252225"))
 FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002027984564"))
-FORCESUB_CHANNEL4 = int(os.environ.get("FORCESUB_CHANNEL4", "-1002027984564"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
