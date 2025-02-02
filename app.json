@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Ahmed789l/new-3-fsub",
+  "repository": "https://github.com/Kaisan5/FileStoreBot2",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
@@ -15,7 +15,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "6727550037"
+      "value": "7784698094"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -27,7 +27,7 @@
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": ""
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
@@ -51,7 +51,7 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "6727550037",
+      "value": "",
       "required": false
     },
     "PROTECT_CONTENT": {
