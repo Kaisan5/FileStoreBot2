@@ -92,7 +92,7 @@ class Bot(Client):
  \_____\____/|_____/|______|_|    |______|_____/_/ \_\____/ \____/  |_| |_____/ 
                                                                                 
                                                                                 
-                                          """)
+                              \\|.        """)
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
