@@ -23,7 +23,7 @@
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00001"
+      "value": ""
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -35,19 +35,19 @@
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1002031978775"
+      "value": "0"
     },
     "FORCESUB_CHANNEL":{
       "description": "id of the first channel, if you want enable force sub feature else put 0",
-      "value": "-1002111343572"
+      "value": "0"
     },
     "FORCESUB_CHANNEL2":{
       "description": "id of the second channel, if you want enable force sub feature else put 0",
-      "value": "-1002059817947"  
+      "value": "0"  
     },
     "FORCESUB_CHANNEL3":{
       "description": "id of your group, if you want enable force sub feature else put 0",
-      "value": "-1002059817947"
+      "value": "0"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
