@@ -1,5 +1,4 @@
-#(©)CodeXBotz
-#By @Codeflix_Bots
+#(©)@AnimeNexusNetwork
 
 
 
@@ -13,28 +12,28 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "0")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24371796"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "8121c78f4b8b31e88cc2623d1277338d")
+API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002100796720"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1439890119"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7784698094"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "kurumiX_Robot")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002038915478"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002034252225"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002027984564"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "0"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
