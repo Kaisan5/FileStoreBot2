@@ -16,7 +16,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [
                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('ɴᴇxᴜs', url='https://t.me/AnimeNexusNetwork/98')
+                    InlineKeyboardButton('ᴇᴄᴄʜɪ ᴅᴇx', url='https://t.me/Ecchi_Dex')
                     ]
                 ]
             )
